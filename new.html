@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+            background-color: grey;
+        }
+
+        #one{
+            border: 15px solid rgb(54, 92, 175);
+        }
+        #two{
+            border: 15px solid rgb(67, 122, 241);
+        }
+        #three{
+            border: 15px solid rgb(129, 165, 241);            
+        }
+        #screen {
+            border: 15px solid rgb(150, 180, 243);
+        }
+        </style>
+</head>
+
+<body>
+    <div id="one">
+        <div id="two">
+            <div id="three">
+
+                <video width=" 600px" height="400px" id="screen" controls autoplay loop muted >
+                    <source src="vid.mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

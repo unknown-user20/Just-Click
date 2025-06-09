@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just click</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            
+            width: auto;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #div1{
+            margin-bottom: 100px;
+            width: auto;
+            height: auto;
+            
+        }
+
+        h1 {
+            color: blueviolet;
+        }
+
+        #b1 {
+            height: 100px ;
+            width: 300px;
+            border: 6px solid black;
+            border-radius: 200px;
+            font-size: 2rem;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div id="div1" >
+        <h1>Try To Click The Button .</h1>
+    </div>
+        <button id="b1" onclick="fun()">Click</button>
+    
+        
+  
+
+
+    <Script>
+        let fun = () => {
+            let button = document.getElementById('b1');
+            button.style.background = 'black'
+            button.style.color = 'orange'
+            button.innerText = 'Clicked'
+            location.href = 'new.html'
+            
+        }
+    </Script>
+</body>
+
+</html>
